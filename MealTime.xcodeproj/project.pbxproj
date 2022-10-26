@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A74B71F02909C2F200CD2157 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B71EF2909C2F200CD2157 /* CoreDataStack.swift */; };
+		A7878F1B2909E69E0029454A /* MealTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7878F192909E69E0029454A /* MealTime.xcdatamodeld */; };
+		A7878F202909E6C80029454A /* Meal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7878F1C2909E6C80029454A /* Meal+CoreDataClass.swift */; };
+		A7878F212909E6C80029454A /* Meal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7878F1D2909E6C80029454A /* Meal+CoreDataProperties.swift */; };
+		A7878F222909E6C80029454A /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7878F1E2909E6C80029454A /* User+CoreDataClass.swift */; };
+		A7878F232909E6C80029454A /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7878F1F2909E6C80029454A /* User+CoreDataProperties.swift */; };
 		A7FB06732909A76300E9C746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB06722909A76300E9C746 /* AppDelegate.swift */; };
 		A7FB06752909A76300E9C746 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB06742909A76300E9C746 /* SceneDelegate.swift */; };
 		A7FB06772909A76300E9C746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB06762909A76300E9C746 /* ViewController.swift */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A74B71EF2909C2F200CD2157 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		A7878F1A2909E69E0029454A /* MealTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MealTime.xcdatamodel; sourceTree = "<group>"; };
+		A7878F1C2909E6C80029454A /* Meal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Meal+CoreDataClass.swift"; path = "MealTime/Meal+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A7878F1D2909E6C80029454A /* Meal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Meal+CoreDataProperties.swift"; path = "MealTime/Meal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A7878F1E2909E6C80029454A /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "MealTime/User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A7878F1F2909E6C80029454A /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "MealTime/User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A7FB066F2909A76300E9C746 /* MealTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FB06722909A76300E9C746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7FB06742909A76300E9C746 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +52,10 @@
 		A7FB06662909A76300E9C746 = {
 			isa = PBXGroup;
 			children = (
+				A7878F1C2909E6C80029454A /* Meal+CoreDataClass.swift */,
+				A7878F1D2909E6C80029454A /* Meal+CoreDataProperties.swift */,
+				A7878F1E2909E6C80029454A /* User+CoreDataClass.swift */,
+				A7878F1F2909E6C80029454A /* User+CoreDataProperties.swift */,
 				A7FB06712909A76300E9C746 /* MealTime */,
 				A7FB06702909A76300E9C746 /* Products */,
 			);
@@ -60,9 +76,11 @@
 				A7FB06742909A76300E9C746 /* SceneDelegate.swift */,
 				A7FB06762909A76300E9C746 /* ViewController.swift */,
 				A7FB06782909A76300E9C746 /* Main.storyboard */,
+				A74B71EF2909C2F200CD2157 /* CoreDataStack.swift */,
 				A7FB067B2909A76300E9C746 /* Assets.xcassets */,
 				A7FB067D2909A76300E9C746 /* LaunchScreen.storyboard */,
 				A7FB06802909A76300E9C746 /* Info.plist */,
+				A7878F192909E69E0029454A /* MealTime.xcdatamodeld */,
 			);
 			path = MealTime;
 			sourceTree = "<group>";
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7878F202909E6C80029454A /* Meal+CoreDataClass.swift in Sources */,
+				A7878F212909E6C80029454A /* Meal+CoreDataProperties.swift in Sources */,
 				A7FB06772909A76300E9C746 /* ViewController.swift in Sources */,
 				A7FB06732909A76300E9C746 /* AppDelegate.swift in Sources */,
 				A7FB06752909A76300E9C746 /* SceneDelegate.swift in Sources */,
+				A74B71F02909C2F200CD2157 /* CoreDataStack.swift in Sources */,
+				A7878F222909E6C80029454A /* User+CoreDataClass.swift in Sources */,
+				A7878F1B2909E69E0029454A /* MealTime.xcdatamodeld in Sources */,
+				A7878F232909E6C80029454A /* User+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +328,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +356,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +382,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7878F192909E69E0029454A /* MealTime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7878F1A2909E69E0029454A /* MealTime.xcdatamodel */,
+			);
+			currentVersion = A7878F1A2909E69E0029454A /* MealTime.xcdatamodel */;
+			name = MealTime.xcdatamodeld;
+			path = "../../../../../../Desktop/swift/07. Изучаем основы Core Data (Swift 5)/16. Удаление данных/MealTime/MealTime/MealTime.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A7FB06672909A76300E9C746 /* Project object */;
 }
